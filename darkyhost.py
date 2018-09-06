@@ -7,8 +7,6 @@
 
 #imports(don't mess with it)
 import discord
-import youtube_dl
-from youtube_dl import YoutubeDL
 import itertools
 import sys
 import traceback
