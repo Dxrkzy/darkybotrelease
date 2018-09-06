@@ -22,6 +22,7 @@ import datetime
 import traceback
 import logging
 from itertools import cycle
+import os
 #prefix                       #commands_prefix means the prefix of the bot, feel free 2 change that :)
 bot = commands.Bot (command_prefix=commands.when_mentioned_or('.'))
 status = ['.info for help', 'coded by dxrkzy', 'DarkyBot is lit', 'i can play music aswell :D', 'New version is nongey', 'i love oofing', 'how about NO! :D', 'version 1.0.2', 'esskeetit', 'esskeetit','Dxrkzy#4783 Is ALLMIGHTY', "Who said bots can't be lit?"]
