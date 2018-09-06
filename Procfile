@@ -1,1 +1,1 @@
-worker: python darkyhost.py
+worker: python C:\Users\karim\Desktop\Games\darkyhost.py
