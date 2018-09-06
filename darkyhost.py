@@ -26,6 +26,8 @@ from itertools import cycle
 bot = commands.Bot (command_prefix=commands.when_mentioned_or('.'))
 status = ['.info for help', 'coded by dxrkzy', 'DarkyBot is lit', 'i can play music aswell :D', 'New version is nongey', 'i love oofing', 'how about NO! :D', 'version 1.0.2', 'esskeetit', 'esskeetit','Dxrkzy#4783 Is ALLMIGHTY', "Who said bots can't be lit?"]
 
+api = str(os.environ.get('RIOT_TOKEN'))
+
 async def change_status():
     await bot.wait_until_ready()
     msgs = cycle(status)
@@ -246,4 +248,4 @@ async def logout():
     await bot.logout()
 
 bot.loop.create_task(change_status())
-bot.run(os.getenv('TOKEN'))
+bot.run(str(os.environ.get('BOT_TOKEN')))
