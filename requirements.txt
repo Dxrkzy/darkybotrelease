@@ -7,5 +7,4 @@ aiohttp ~= 2.3.10
 websockets
 chardet
 opuslib
-os
 asyncio
