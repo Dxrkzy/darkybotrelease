@@ -8,6 +8,8 @@
 #imports(don't mess with it)
 import discord
 import itertools
+import youtube_dl
+from youtube_dl import YoutubeDL
 import sys
 import traceback
 from async_timeout import timeout
