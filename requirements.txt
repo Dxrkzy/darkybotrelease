@@ -1,10 +1,23 @@
-discord.py[voice] ~= 0.16.0
 pip
+requests
+lxml
+urllib3
+simplejson
+aiohttp
+websockets==3.4
+chardet
+PyNaCl
+discord.py==0.16.12
+discord.py[voice]
+asyncio
 youtube-dl
 colorlog
-cffi --only-binary all; 
-aiohttp ~= 2.3.10
-websockets
-chardet
+safygiphy
+PixivPy
+oauth2client
+google-api-python-client
+google-auth
+google-auth-httplib2
 opuslib
-asyncio
+googletrans
+praw
