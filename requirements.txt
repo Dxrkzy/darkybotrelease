@@ -9,7 +9,7 @@ chardet
 PyNaCl
 discord.py[voice]
 asyncio
-youtube-dl
+youtube_dl
 colorlog
 safygiphy
 PixivPy
